@@ -15,9 +15,9 @@ This project is a Python-based credit risk analysis system. It evaluates compani
 
 This script analyzes a predefined list of companies and prints a summary table with Z-Scores, default probabilities, and credit decisions.
 
-'''
+```bash
 python main.py
-'''
+```
 
 It will:
 - Fetch financial data for tickers like `MSFT`, `AAPL`, `WMT`.
@@ -30,15 +30,15 @@ This script starts an interactive Streamlit dashboard where you can enter stock 
 
 1. Install Streamlit if needed:
 
-'''
+```bash
 pip install streamlit
-'''
+```
 
 2. Run the dashboard:
 
-'''
+```bash
 streamlit run dashboard.py
-'''
+```
 
 3. Open the browser window and enter one or more comma-separated tickers (e.g., `AAPL, MSFT`) to see:
 - A table summarizing each company’s risk metrics.
